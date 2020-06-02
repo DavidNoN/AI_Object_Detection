@@ -230,8 +230,8 @@ class App(QDialog):
     def __init__(self):
         QDialog.__init__(self)
         uic.loadUi("app.ui",self)
-        self.setMinimumSize(535,535)
-        self.setMaximumSize(535,535)
+        self.setMinimumSize(535,600)
+        self.setMaximumSize(535,600)
         self.setWindowTitle('Información importante')
 
 if __name__ == '__main__':
